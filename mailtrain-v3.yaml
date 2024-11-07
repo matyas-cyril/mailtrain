@@ -1,0 +1,15 @@
+name: mailtrain-v3
+
+services:
+
+  mailtrain:
+
+    container_name: mailtrain
+
+    build:
+      context: ./Mailtrain-V3
+      dockerfile: Dockerfile
+
+
+volumes:
+  Mailtrain: {}
